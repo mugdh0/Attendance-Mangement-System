@@ -1,0 +1,74 @@
+
+#profileCon {
+    position: relative;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    transition: background .5s ease;
+  }
+  
+  #profileCon:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  .imgProfile {
+      height: 300px;
+      border-radius: 50%;
+    /* position: absolute; */
+    /* width: 500px;
+    height: 300px; */
+    /* left: 0; */
+  }
+  
+  /* .title {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  
+  #profileCon:hover .title {
+    top: 90px;
+  } */
+  
+  #button11 {
+    position: absolute;
+    width: 325px;
+    left:0;
+    top: 200px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .45s ease;
+  }
+  
+  #button11 a {
+    /* width: 200px; */
+    /* padding: 12px 48px; */
+    text-align: center;
+    /* color: white; */
+    /* border: solid 2px white; */
+    z-index: 1;
+  }
+  
+  #profileCon:hover #button11 {
+    opacity: 1;
+  }
+  
+  
